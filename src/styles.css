@@ -1,0 +1,51 @@
+body {
+    background-color: #3574e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+form {
+    text-align: center;
+}
+
+form input, form button {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    border: none;
+}
+
+img {
+    width: 20rem;
+}
+
+form button {
+    background-color: white;
+    color: black;
+}
+
+.search-result {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.toggle-unit {
+    padding: 10px 20px; 
+    background-color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.card {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+
+}
+
